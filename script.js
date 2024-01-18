@@ -28,9 +28,7 @@ const Calc = () => {
       <h1 id="result-h1">Results</h1>
       <div class="result-p">
         <p>Principal Amount = ${principal}</p>
-        <p>Profit on ${perTrade}% = ${total}</p>
-        <p>Profit on remaining ${total_remain}% = ${totalRemain}</p>
-        <p>Total Profit: ${allTotal}</p>
+        <p>Profit Gained = ${total}</p>
       </div>
     `;
   }
