@@ -10,10 +10,21 @@
     font-style: normal;
 }
 @media (prefer-color-scheme: light){
-    color: black;
+    
+    *{
+        color: black;
+    }
+    .form-input for button{
+        color: white;
+    }
 }
 @media (prefer-color-scheme: dark){
-    color: white;
+    *{
+        color: white;
+    }
+    .form-input for button{
+        color: dark;
+    }
 }
 
 body{
@@ -34,7 +45,7 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 900;
     padding: 15px;
 }
@@ -54,11 +65,16 @@ h1{
     font-weight: 600;
     font-size: 19px;
     text-align: center;
-    margin: 10px 2px;
+    margin: 5px 2px;
 }
 .form-input form input{
     width: 270px;
     height: 40px;
     padding: 10px;
-    margin: 10px 2px;
+    margin: 5px 2px;
+}
+.form-input for button{
+    width: 280;
+    height: 35px;
+    background-color: #ef4c3c;
 }
