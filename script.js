@@ -4,8 +4,10 @@ const Calc = () => {
   const principal = parseFloat(document.querySelector("#total").value);
   let total = principal;
   const numberOfTrades = parseInt(document.querySelector("#number-trades").value);
-  const perTrade = parseFloat(document.querySelector("#per-trade").value);
-  const perTakeProfit = parseFloat(document.querySelector("#per-take-profit").value);
+  let perTrade = parseFloat(document.querySelector("#per-trade").value);
+  perTrade = perTrade / 100;
+  let perTakeProfit = parseFloat(document.querySelector("#per-take-profit").value);
+  perTakeProfit = perTakeProfit / 100;
   let total_remain = 1 - perTrade;
   let totalRemain;
 
