@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+no@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
 
 *{
     margin: 0px;
@@ -69,12 +69,14 @@ h1{
 }
 .form-input form input{
     width: 270px;
-    height: 40px;
+    height: 35px;
     padding: 10px;
+    font-size: 17px;
     margin: 5px 2px;
 }
 .form-input for button{
-    width: 280;
+    width: 280px;
     height: 35px;
     background-color: #ef4c3c;
+    font-size: 18px;
 }
