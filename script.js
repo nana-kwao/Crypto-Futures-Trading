@@ -34,4 +34,4 @@ const Calc = () => {
   displayResults();
 };
 
-submitBtn.addEventListener("click",Calc);
+submitBtn.addEventListener("click",Calc());
