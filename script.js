@@ -17,7 +17,6 @@ const Calc = () => {
     totalRemain = (total * total_remain);
     let recurring = (total_perTrade * leverage) * perTakeProfit;
     total = recurring + total;
-    total = total + totalRemain;
   }
 
   const allTotal = parseFloat(total);
