@@ -10,11 +10,12 @@ const Calc = () => {
   perTakeProfit = parseFloat(perTakeProfit / 100);
   let total_remain = 1 - perTrade;
   let totalRemain;
+  let leverage = parseFloat(document.getElemetById("leverage").value);
 
   for (let a = 1; a < (numberOfTrades + 1); a++) {
     let total_perTrade = (total * perTrade);
     totalRemain = (total * total_remain);
-    let recurring = total_perTrade * perTakeProfit;
+    let recurring = (total_perTrade * leverage) * perTakeProfit;
     total = recurring + total;
   }
 
