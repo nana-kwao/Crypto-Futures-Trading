@@ -5,9 +5,9 @@ const Calc = () => {
   let total = principal;
   const numberOfTrades = parseInt(document.querySelector("#number-trades").value);
   let perTrade = parseFloat(document.querySelector("#per-trade").value);
-  perTrade = perTrade / 100;
+  perTrade = parseFloat(perTrade / 100);
   let perTakeProfit = parseFloat(document.querySelector("#per-take-profit").value);
-  perTakeProfit = perTakeProfit / 100;
+  perTakeProfit = parseFloat(perTakeProfit / 100);
   let total_remain = 1 - perTrade;
   let totalRemain;
 
@@ -18,13 +18,13 @@ const Calc = () => {
     total = recurring + total;
   }
 
-  const allTotal = total + totalRemain;
+  const allTotal = parseFloat(total + totalRemain);
 
   function displayResults() {
     const resultDisplay = document.querySelector(".result-display");
     resultDisplay.innerHTML = `
-      <h1>Results</h1>
-      <div>
+      <h1 id="result-h1">Results</h1>
+      <div class="result-p">
         <p>Principal Amount = ${principal}</p>
         <p>Profit on ${perTrade}% = ${total}</p>
         <p>Profit on remaining ${total_remain * 100}% = ${totalRemain}</p>
