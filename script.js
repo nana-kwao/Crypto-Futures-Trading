@@ -9,6 +9,7 @@ const Calc = () => {
   let perTakeProfit = parseFloat(document.querySelector("#per-take-profit").value);
   perTakeProfit = parseFloat(perTakeProfit / 100);
   let total_remain = 1 - perTrade;
+  total_remain = parseFloat(total_remain.toFixed(2));
   let totalRemain;
   let leverage = parseFloat(document.querySelector("#leverage").value);
 
@@ -28,7 +29,7 @@ const Calc = () => {
       <div class="result-p">
         <p>Principal Amount = ${principal}</p>
         <p>Profit on ${perTrade}% = ${total}</p>
-        <p>Profit on remaining ${total_remain * 100}% = ${totalRemain}</p>
+        <p>Profit on remaining ${total_remain}% = ${totalRemain}</p>
         <p>Total Profit: ${allTotal}</p>
       </div>
     `;
