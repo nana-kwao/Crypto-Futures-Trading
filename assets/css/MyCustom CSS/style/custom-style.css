@@ -1,0 +1,374 @@
+/* My Custom Fonts For My Projects */
+/* This Custom Styles Contains Colors, Fonts and other Essential Properties to Aid my Projects for speed and flexibility*/
+
+/* fonts */
+@font-face {
+  font-family: "Croissant-Regular";
+  src: url(../fonts/Croissant_One/CroissantOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Mukta-Bold";
+  src: url(../fonts/Mukta/Mukta-Bold.ttf);
+}
+@font-face {
+  font-family: "Mukta-ExtraBold";
+  src: url(../fonts/Mukta/Mukta-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Mukta-ExtraLight";
+  src: url(../fonts/Mukta/Mukta-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Mukta-Light";
+  src: url(../fonts/Mukta/Mukta-Light.ttf);
+}
+@font-face {
+  font-family: "Mukta-Medium";
+  src: url(../fonts/Mukta/Mukta-Medium.ttf);
+}
+@font-face {
+  font-family: "Mukta-Regular";
+  src: url(../fonts/Mukta/Mukta-Regular.ttf);
+}
+@font-face {
+  font-family: "Mukta-SemiBold";
+  src: url(../fonts/Mukta/Mukta-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Open-Sans-Italic";
+  src: url(../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "Open-Sans";
+  src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "Playfair-Display-Italic";
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Playfair-Display";
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Poppins-Black";
+  src: url(../fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: "Poppins-Black-Italic";
+  src: url(../fonts/Poppins/Poppins-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins-Bold-Italic";
+  src: url(../fonts/Poppins/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Poppins-Italic";
+  src: url(../fonts/Poppins/Poppins-Italic.ttf);
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url(../fonts/Poppins/Poppins-Thin.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(../fonts/Quicksand/static/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url(../fonts/Quicksand/static/Quicksand-Light.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(../fonts/Quicksand/static/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url(../fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+@font-face {
+  font-family: "Quicksand-SemiBold";
+  src: url(../fonts/Quicksand/static/Quicksand-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url(../fonts/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-Bold";
+  src: url(../fonts/Roboto_Mono/static/RobotoMono-Bold.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-Light";
+  src: url(../fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-ExtraLight";
+  src: url(../fonts/Roboto_Mono/static/RobotoMono-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-Medium";
+  src: url(../fonts/Roboto_Mono/static/RobotoMono-Medium.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-Regular";
+  src: url(../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-SemiBold";
+  src: url(../fonts/Roboto_Mono/static/RobotoMono-SemiBold.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-Thin";
+  src: url(../fonts/Roboto_Mono/static/RobotoMono-Thin.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-Black";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-Black.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-Bold";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-ExtraBold";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-ExtraLight";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-Light";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-Light.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-Medium";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-Regular";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-SemiBold";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-SemiBold.ttf);
+}
+@font-face {
+  font-family: "RobotoSlab-Thin";
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-Thin.ttf);
+}
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+@font-face {
+  font-family: "Ubuntu-Bold-Italic";
+  src: url(../fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "Ubuntu-Italic";
+  src: url(../fonts/Ubuntu/Ubuntu-Italic.ttf);
+}
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+@font-face {
+  font-family: "Ubuntu-Light-Italic";
+  src: url(../fonts/Ubuntu/Ubuntu-LightItalic.ttf);
+}
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+:root{
+  /* Fonts */
+  --croissant-regular: "Croissant-Regular";
+  --mukta-bold: "Mukta-Bold";
+  --mukta-extrabold: "Mukta-ExtraBold";
+  --mukta-extralight: "Mukta-ExtraLight";
+  --mukta-light: "Mukta-Light";
+  --mukta-medium: "Mukta-Medium";
+  --mukta-regular: "Mukta-Regular";
+  --mukta-semibold: "Mukta-SemiBold";
+  --open-sans-italic: "Open-Sans-Italic";
+  --open-sans: "Opens-Sans";
+  --playfair-display-italic: "Playfair-Display-Italic";
+  --playfair-display: "Playfair-Display";
+  --poppins-black: "Poppins-Black";
+  --poppins-black-italic: "Poppins-Black-Italic";
+  --poppins-bold: "Poppins-Bold";
+  --poppins-bold-italic: "Poppins-Bold-Italic";
+  --poppins-extra-bold: "Poppins-ExtraBold";
+  --poppins-extra-light: "Poppins-ExtraLight";
+  --poppins-italic: "Poppins-Italic";
+  --poppins-light: "Poppins-Light";
+  --poppins-medium: "Poppins-Medium";
+  --poppins-regular: "Poppins-Regular";
+  --poppins-semi-bold: "Poppins-SemiBold";
+  --poppins-thin: "Poppins-Thin";
+  --quicksand-bold: "Quicksand-Bold";
+  --quicksand-light: "Quicksand-Light";
+  --quicksand-medium: "Quicksand-Medium";
+  --quicksand-regular: "Quicksand-Regular";
+  --quicksand-semi-bold: "Quicksand-SemiBold";
+  --roboto-black: "Roboto-Black";
+  --roboto-bold: "Roboto-Bold";
+  --roboto-light: "Roboto-Light";
+  --roboto-italic: "Roboto-Italic";
+  --roboto-medium: "Roboto-Medium";
+  --roboto-regular: "Roboto-Regular";
+  --roboto-thin: "Roboto-Thin";
+  --robotomono-bold: "RobotoMono-Bold";
+  --robotomono-light: "RobotoMono-Light";
+  --robotomono-extra-light: "RobotoMono-ExtraLight";
+  --robotomono-medium: "RobotoMono-Medium";
+  --robotomono-regular: "RobotoMono-Regular";
+  --robotomono-semi-bold: "RobotoMono-SemiBold";
+  --robotomono-thin: "RobotoMono-Thin";
+  --robotoslab-black: "RobotoSlab-Black";
+  --robotoslab-bold: "RobotoSlab-Bold";
+  --robotoslab-extra-bold: "RobotoSlab-ExtraBold";
+  --robotoslab-extra-light: "RobotoSlab-ExtraLight";
+  --robotoslab-light: "RobotoSlab-Light";
+  --robotoslab-medium: "RobotoSlab-Medium";
+  --robotoslab-regular: "RobotoSlab-Regular";
+  --robotoslab-semi-bold: "RobotoSlab-SemiBold";
+  --robotoslab-thin: "RobotoSlab-Thin";
+  --ubuntu-bold: "Ubuntu-Bold";
+  --ubuntu-bold-italic: "Ubuntu-Bold-Italic";
+  --ubuntu-italic: "Ubuntu-Italic";
+  --ubuntu-light: "Ubuntu-Light";
+  --ubuntu-light-italic: "Ubuntu-Light-Italic";
+  --ubuntu-medium: "Ubuntu-Medium";
+  --ubuntu-regular: "Ubuntu-Regular";
+
+
+
+  /* colors */
+  --black : #000000;
+  --white : #ffffff;
+  --indian-red : #cd5c5c;
+  --light-coral : #f08080;
+  --salmon : #fa8072;
+  --dark-salmon : #e9967a;
+  --light-salmon : #ffa07a;
+  --crimson : #dc143c;
+  --red : #ff0000;
+  --firebrick : #b22222;
+  --dark-red : #8b0000;
+  --pink : #ffc0cb;
+  --light-pink : #ffb6c1;
+  --hot-pink : #ff69b4;
+  --deep-pink : #ff1493;
+  --medium-violet-red : #c71585;
+  --pale-violet-red : #db7093;
+  --coral : #ff7f50;
+  --tomato : #ff6347;
+  --orange-red : #ff4500;
+  --dark-orange : #ff8c00;
+  --orange : #ffa500;
+  --gold : #ffd700;
+  --yellow : #ffff00;
+  --light-yellow : #ffffe0;
+  --mocassin : #ffe4b5;
+  --peach-puff : #ffdab9;
+  --khaki : #f0e68c;
+  --dark-khaki : #b0b76b;
+  --lavender : #e6e6fa;
+  --violet : #ee82ee;
+  --orchid : #da70d6;
+  --fuchsia : #ff00ff;
+  --magenta : #ff00ff;
+  --medium-purple : #9370db;
+  --blue-violet : #8a2be2;
+  --dark-violet : #9400d3;
+  --purple : #800080;
+  --indigo : #4b0082;
+  --slate-blue : #6a5acd;
+  --dark-slate-blue : #483d8b;
+  --medium-slate-blue : #7b68ee;
+  --green-yellow : #adff2f;
+  --chartreuse : #7fff00;
+  --lawn-green : #7cfc00;
+  --lime : #00ff00;
+  --lime-green : #32cd32;
+  --pale-green : #98fb89;
+  --light-green : #90ee90;
+  --spring-green : #00ff7f;
+  --medium-spring-green : #00fa9a;
+  --sea-green : #2e8b57;
+  --forest-green : #228b22;
+  --green : #008000;
+  --olive : #808000;
+  --dark-cyan : #008b8b;
+  --teal : #008080;
+  --aqua : #00ffff;
+  --light-cyan : #e0ffff;
+  --aquamarin : #7fffd4;
+  --cadet-blue : #5f9ea0;
+
+
+  /* Basic CSS properties */
+  --full-width: 100vw;
+  --full-height: 100vh;
+  --margin-zero: 0;
+  --padding-zero: 0;
+}
